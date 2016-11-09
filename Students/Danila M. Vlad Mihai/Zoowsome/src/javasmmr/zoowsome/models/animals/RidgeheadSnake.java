@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class RidgeheadSnake extends Reptile{
-	public RidgeheadSnake( String Name, int nrOfLegs, boolean laysEggs ){
-		this.setName(Name);
+	public RidgeheadSnake( String name, int nrOfLegs, boolean laysEggs ){
+		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 		this.setLaysEggs(laysEggs);
 	}

@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class MountainGorilla extends Mammal{
-	public MountainGorilla(String Name, int nrOfLegs, float normalBodyTemp, float percBodyHair ){
-		this.setName(Name);
+	public MountainGorilla(String name, int nrOfLegs, float normalBodyTemp, float percBodyHair ){
+		this.setName(name);
 		this.setNormalBodyTemp(normalBodyTemp);
 		this.setPercBodyHair(percBodyHair);
 		this.setNrOfLegs(nrOfLegs);	

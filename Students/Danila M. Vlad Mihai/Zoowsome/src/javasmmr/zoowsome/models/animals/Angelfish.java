@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class Angelfish extends Aquatic {
-	public Angelfish(String Name, int nrOfLegs, int avgSwimDepth, Enum waterType ){
-		this.setName(Name);
+	public Angelfish(String name, int nrOfLegs, int avgSwimDepth, Enum waterType ){
+		this.setName(name);
 		this.setAvgSwimDepth(avgSwimDepth);
 		this.setWaterType(waterType);
 		this.setNrOfLegs(nrOfLegs);	
@@ -13,4 +13,5 @@ public class Angelfish extends Aquatic {
 		this.setAvgSwimDepth(67);
 		this.setWaterType(Enum.SALTWATER);
 	}
+
 }

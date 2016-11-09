@@ -20,4 +20,6 @@ public abstract class Aquatic extends Animal {
 	 public void setWaterType(Enum waterType){
 		 this.waterType = waterType;
 	 }
+
+
 }

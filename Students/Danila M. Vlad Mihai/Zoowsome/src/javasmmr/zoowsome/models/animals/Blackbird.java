@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class Blackbird extends Bird {
-		public Blackbird(String Name, int nrOfLegs, boolean migrates, int avgFlightAltitude ){
-			this.setName(Name);
+		public Blackbird(String name, int nrOfLegs, boolean migrates, int avgFlightAltitude ){
+			this.setName(name);
 			this.setMigrates(migrates);
 			this.setAvgFlightAltitude(avgFlightAltitude);
 			this.setNrOfLegs(nrOfLegs);	
@@ -13,4 +13,5 @@ public class Blackbird extends Bird {
 			this.setMigrates(false);
 			this.setAvgFlightAltitude(43);
 		}
+
 }

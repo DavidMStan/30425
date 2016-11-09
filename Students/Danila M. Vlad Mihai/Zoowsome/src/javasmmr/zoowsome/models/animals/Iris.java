@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class Iris extends Insect {
-	public Iris(String Name, int nrOfLegs, boolean canFly, boolean isDangerous ){
-		this.setName(Name);
+	public Iris(String name, int nrOfLegs, boolean canFly, boolean isDangerous ){
+		this.setName(name);
 		this.setCanFly(canFly);
 		this.setIsDangerous(isDangerous);
 		this.setNrOfLegs(nrOfLegs);	

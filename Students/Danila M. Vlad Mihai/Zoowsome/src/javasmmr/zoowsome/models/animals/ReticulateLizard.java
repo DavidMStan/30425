@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class ReticulateLizard extends Reptile{
-	public ReticulateLizard( String Name, int nrOfLegs, boolean laysEggs ){
-		this.setName(Name);
+	public ReticulateLizard( String name, int nrOfLegs, boolean laysEggs ){
+		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 		this.setLaysEggs(laysEggs);
 	}

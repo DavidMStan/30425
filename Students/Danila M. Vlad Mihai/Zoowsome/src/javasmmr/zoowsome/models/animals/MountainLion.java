@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class MountainLion  extends Mammal{
-	public MountainLion(String Name, int nrOfLegs, float normalBodyTemp, float percBodyHair ){
-		this.setName(Name);
+	public MountainLion(String name, int nrOfLegs, float normalBodyTemp, float percBodyHair ){
+		this.setName(name);
 		this.setNormalBodyTemp(normalBodyTemp);
 		this.setPercBodyHair(percBodyHair);
 		this.setNrOfLegs(nrOfLegs);	

@@ -1,8 +1,8 @@
 package javasmmr.zoowsome.models.animals;
 
 public class RussianViper extends Reptile {
-	public RussianViper( String Name, int nrOfLegs, boolean laysEggs ){
-		this.setName(Name);
+	public RussianViper( String name, int nrOfLegs, boolean laysEggs ){
+		this.setName(name);
 		this.setNrOfLegs(nrOfLegs);
 		this.setLaysEggs(laysEggs);
 	}
