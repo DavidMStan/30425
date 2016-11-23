@@ -1,5 +1,6 @@
 package javasmmr.zoowsome.models.employees;
 import java.math.BigDecimal;
+import javasmmr.zoowsome.services.factories.Utiles;
 
 public abstract class Employee {
 
@@ -14,7 +15,7 @@ public abstract class Employee {
 		setName(name + counter);//to differentiate the caretakers
 		++counter;
 		
-		setId();
+		setId(Utiles.generateId());
 		setSalary(salary);
 		setIsDead(isDead);
 	}
@@ -31,23 +32,10 @@ public abstract class Employee {
 		return id;
 	}
 	
-	public void setId(){
-		long nr = (long) (((double) 1e14 )* Math.random()) ;
-		
-		int nrOfDigits = 0;
-		long copyOfNr = nr;
-		
-		while(copyOfNr > 0){
-			nrOfDigits++;
-			copyOfNr /= 10;
-		}
-		
-		if(nrOfDigits == 13)
-			this.id = nr;
-		else 
-			this.id = nr/10;
-			
+	public void setId(long id){
+		this.id = id;
 	}
+	
 	
 	public BigDecimal getSalary(){
 		return salary;

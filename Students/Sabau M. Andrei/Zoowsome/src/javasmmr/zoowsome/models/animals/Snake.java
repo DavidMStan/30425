@@ -1,5 +1,11 @@
 package javasmmr.zoowsome.models.animals;
 
+import javax.xml.stream.*;
+
+import javasmmr.zoowsome.services.factories.Constants;
+
+import static javasmmr.zoowsome.repositories.AnimalRepository.createNode;
+
 public class Snake extends Reptile{
 
 	private static int counter = 0;
@@ -24,5 +30,10 @@ public class Snake extends Reptile{
 			return 0.25;
 
 		return 0;
+	}
+	
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Reptiles.SNAKE);
 	}
 }
