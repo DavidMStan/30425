@@ -10,22 +10,17 @@ public abstract class Employee {
 	
 	public Employee(String name, BigDecimal salary, boolean isDead){
 		setId();
+		setName(name);
 		setSalary(salary);
 		setIsDead(isDead);
 		
 	}
 	public long getId(){
-		return id;
+		return this.id;
 	}
 	public void setId(){
-	Random rand = new Random();
-	char[] digit = new char[13];
-	digit[0] = (char)(rand.nextInt(10));
-	
-	for(int i=0;i<13;i++){
-		digit[i] = (char)(rand.nextInt(10));
-	}
-	long id = Long.parseLong(new String(digit));
+		Random rand = new Random();
+		this.id = rand.nextLong();
 	}
 	public String getName(){
 		return name;
@@ -35,7 +30,7 @@ public abstract class Employee {
 		this.name = name;
 	}
 	public BigDecimal getSalary(){
-		return salary;
+		return this.salary;
 	}
 	
 	public void setSalary(BigDecimal salary){

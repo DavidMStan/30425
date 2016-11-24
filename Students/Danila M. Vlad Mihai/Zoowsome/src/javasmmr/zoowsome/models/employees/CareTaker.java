@@ -20,7 +20,7 @@ public class CareTaker extends Employee implements CareTaker_I{
 	}
 	
 	public CareTaker(){
-		this("Employee", BigDecimal.ZERO, false, 8);
+		this("Employee --> ", BigDecimal.ZERO, false, 8);
 	}
 	public String takeCareOf(Animal animal){
 		if(animal.kill()){

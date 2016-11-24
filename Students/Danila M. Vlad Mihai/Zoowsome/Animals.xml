@@ -1,0 +1,100 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Angelshark</name>
+	<maintenanceCost>0.7</maintenanceCost>
+	<dangerPerc>0.9</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<AvgSwimDepth>77</AvgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Angelshark</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Angelshark</name>
+	<maintenanceCost>0.7</maintenanceCost>
+	<dangerPerc>0.9</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<AvgSwimDepth>77</AvgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Angelshark</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>MountainGoat</name>
+	<maintenanceCost>4.1</maintenanceCost>
+	<dangerPerc>0.2</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>39.9</normalBodyTemp>
+	<percBodyHair>89.91</percBodyHair>
+	<DISCRIMINANT>MountainGoat</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>MountainGorilla</name>
+	<maintenanceCost>6.1</maintenanceCost>
+	<dangerPerc>0.6</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>37.12</normalBodyTemp>
+	<percBodyHair>94.21</percBodyHair>
+	<DISCRIMINANT>MountainGorilla</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>MountainGorilla</name>
+	<maintenanceCost>6.1</maintenanceCost>
+	<dangerPerc>0.6</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>37.12</normalBodyTemp>
+	<percBodyHair>94.21</percBodyHair>
+	<DISCRIMINANT>MountainGorilla</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>IrisWeevils</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPerc>0.2</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>IrisWeevils</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>RussianViper</name>
+	<maintenanceCost>4.7</maintenanceCost>
+	<dangerPerc>0.9</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>RussianViper</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>IrisBorers</name>
+	<maintenanceCost>0.2</maintenanceCost>
+	<dangerPerc>0.5</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>IrisBorers</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>RidgeheadSnake</name>
+	<maintenanceCost>2.4</maintenanceCost>
+	<dangerPerc>0.8</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>RidgeheadSnake</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>IrisBorers</name>
+	<maintenanceCost>0.2</maintenanceCost>
+	<dangerPerc>0.5</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>IrisBorers</DISCRIMINANT>
+</ANIMAL>
+</content>

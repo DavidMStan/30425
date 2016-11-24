@@ -1,8 +1,9 @@
 package javasmmr.zoowsome.services.factories;
 
 public final class Constants {
-	public static final int ZOO_CAPACITY = 50;
-	public static final int NR_ANIMALS = 15;
+	public static final int ZOO_CAPACITY = 10;
+	public static final int NR_ANIMALS = 10;
+	public static final int NR_EMPLOYEES = 25;
 	
 	public static final class Species {
 		public static final String MAMMALS = "Mammals";
@@ -47,5 +48,9 @@ public final class Constants {
 			public static final String TCO_KILLED = "KILLED";
 			public static final String TCO_NO_TIME = "NO_TIME";
 		}
+	}
+	public static final class XML_TAGS{
+ 		public static final String ANIMAL = "ANIMAL";
+ 		public static final String DISCRIMINANT = "DISCRIMINANT";
 	}
 }
