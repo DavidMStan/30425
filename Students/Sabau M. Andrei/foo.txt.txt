@@ -1,0 +1,2 @@
+This .txt exists so that the folder will not be empty after I have created it,
+because github doesn't store empty folder.
