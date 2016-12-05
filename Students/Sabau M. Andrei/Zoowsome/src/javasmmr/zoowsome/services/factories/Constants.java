@@ -2,6 +2,11 @@ package javasmmr.zoowsome.services.factories;
 
 public final class Constants {
 
+	public static final class XML_TAGS{
+		public static final String ANIMAL = "ANIMAL";
+		public static final String DISCRIMINANT = "DISCRIMINANT";
+	}
+	
 	public static final class Species{
 		public static final String MAMMALS = "MAMMALS";
 		public static final String REPTILES = "REPTILES";

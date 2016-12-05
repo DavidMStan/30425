@@ -1,0 +1,98 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Crocodile0</name>
+	<maintenanceCost>4.45</maintenanceCost>
+	<dangerPerc>0.85</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Eagle0</name>
+	<maintenanceCost>6.2</maintenanceCost>
+	<dangerPerc>0.77</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<migrates>true</migrates>
+	<avgFlightAltitude>50</avgFlightAltitude>
+	<DISCRIMINANT>EAGLE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Lizard0</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.02</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>LIZARD</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Cow0</name>
+	<maintenanceCost>0.77</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>34.1</normalBodyTemp>
+	<percBodyHair>87.9</percBodyHair>
+	<DISCRIMINANT>COW</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Swan0</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>0.01</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<migrates>true</migrates>
+	<avgFlightAltitude>30</avgFlightAltitude>
+	<DISCRIMINANT>SWAN</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Crocodile1</name>
+	<maintenanceCost>4.45</maintenanceCost>
+	<dangerPerc>0.85</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Monkey0</name>
+	<maintenanceCost>7.1</maintenanceCost>
+	<dangerPerc>0.4</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<normalBodyTemp>31.9</normalBodyTemp>
+	<percBodyHair>95.5</percBodyHair>
+	<DISCRIMINANT>MONKEY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Snake0</name>
+	<maintenanceCost>6.1</maintenanceCost>
+	<dangerPerc>0.78</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>SNAKE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Fish0</name>
+	<maintenanceCost>0.5</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>true</takenCareOf>
+	<avgSwimDepth>5</avgSwimDepth>
+	<waterType>freshWater</waterType>
+	<DISCRIMINANT>FISH</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Cow1</name>
+	<maintenanceCost>0.77</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>34.1</normalBodyTemp>
+	<percBodyHair>87.9</percBodyHair>
+	<DISCRIMINANT>COW</DISCRIMINANT>
+</ANIMAL>
+</content>
