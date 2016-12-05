@@ -7,6 +7,7 @@ public class PolarBear extends Mammal {
 		this.setName(name);
 		this.setNormalBodyTemp(temp);
 		this.setPercBodyHair(hair);
+		setCost(4);
 	}
 	
 	public PolarBear(){
@@ -14,5 +15,6 @@ public class PolarBear extends Mammal {
 		this.setNrOfLegs(4);
 		this.setNormalBodyTemp(37);
 		this.setPercBodyHair(85);
+		setCost(4);
 	}
 }

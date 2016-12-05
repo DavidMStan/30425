@@ -7,7 +7,7 @@ public class Ant extends Insect {
 		this.setName(name);
 		this.setIsDangerous(isDangerous);
 		this.setCanFly(canFly);
-		
+		setCost(0.5);
 	}
 	
 	public Ant(){
@@ -15,6 +15,7 @@ public class Ant extends Insect {
 		this.setNrOfLegs(6);
 		this.setIsDangerous(false);
 		this.setCanFly(false);
+		setCost(0.5);
 
 	}
 

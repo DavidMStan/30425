@@ -7,7 +7,7 @@ public class Stork extends Bird{
 		this.setName(name);
 		this.setAvgFlightAltitude(altitude);
 		this.setMigrates(migrate);
-		
+		setCost(1.6);
 	}
 	
 	public Stork(){
@@ -15,5 +15,6 @@ public class Stork extends Bird{
 		this.setNrOfLegs(2);
 		this.setAvgFlightAltitude(90);
 		this.setMigrates(true);
+		setCost(1.6);
 	}
 }

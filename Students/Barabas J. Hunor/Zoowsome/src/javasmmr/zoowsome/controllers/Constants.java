@@ -2,40 +2,51 @@ package javasmmr.zoowsome.controllers;
 
 public final class Constants {
 	
+	
+	
 	public final static class Species {
-		public final static String Mammals = "Mammals";
-		public final static String Aquatics = "Aquatics";
-		public final static String Birds = "Birds";
-		public final static String Reptiles = "Reptiles";
-		public final static String Insects = "Insects";
+		public final static String MAMMALS = "Mammals";
+		public final static String AQUATICS = "Aquatics";
+		public final static String BIRDS = "Birds";
+		public final static String REPTILES = "Reptiles";
+		public final static String INSECTS = "Insects";
 	}
 	
 	public final static class Animals {
 		public final static class Mammals {
-			public final static  String Elephant = "Elephant";
-			public final static String PolarBear = "PolarBear";
-			public final static String Cheetah = "Cheetah";
+			public final static  String ELEPHANT = "Elephant";
+			public final static String POLARBEAR = "PolarBear";
+			public final static String CHEETAH = "Cheetah";
 		}
 		public final static class Aquatics {
-			public final static String Anglerfish = "Anglerfish";
-			public final static String Salmon = "Salmon";
-			public final static String Piranha = "Piranha";
+			public final static String ANGLERFISH = "Anglerfish";
+			public final static String SALMON = "Salmon";
+			public final static String PIRANHA = "Piranha";
 		}
 		public final static class Birds {
-			public final static String Eagle = "Eagle";
-			public final static String Falcon = "Falcon";
-			public final static String Stork = "Stork";
+			public final static String EAGLE = "Eagle";
+			public final static String FALCON = "Falcon";
+			public final static String STORK = "Stork";
 			
 		}
 		public final static class Insects {
-			public final static String Ant = "Ant";
-			public final static String Beetle = "Beetle";
-			public final static String Mantis = "Mantis";
+			public final static String ANT = "Ant";
+			public final static String BEETLE = "Beetle";
+			public final static String MANTIS = "Mantis";
 		}
 		public final static class Reptiles {
-			public final static String Crocodile = "Crocodile";
-			public final static String Komodo = "Snake";
-			public final static String BlackMamba = "BlackMamba";
+			public final static String CROCODILE = "Crocodile";
+			public final static String KOMODO = "Snake";
+			public final static String BLACKMAMBA = "BlackMamba";
+		}
+	}
+	
+	public final static class Employees {
+		public final static String CARETAKER = "Caretaker";
+		public final static class Caretakers {
+			public final static String TCO_SUCCESS = "SUCCESS";
+			public final static String TCO_KILLED = "KILLED";
+			public final static String TCO_NO_TIME = "NO_TIME";
 		}
 	}
 

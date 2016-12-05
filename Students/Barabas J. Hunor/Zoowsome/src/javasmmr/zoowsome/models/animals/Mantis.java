@@ -7,7 +7,7 @@ public class Mantis extends Insect {
 		this.setName(name);
 		this.setIsDangerous(isDangerous);
 		this.setCanFly(canFly);
-		
+		setCost(0.9);
 	}
 	
 	public Mantis(){
@@ -15,6 +15,6 @@ public class Mantis extends Insect {
 		this.setNrOfLegs(6);
 		this.setIsDangerous(false);
 		this.setCanFly(false);
-
+		setCost(0.9);
 	}
 }

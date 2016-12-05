@@ -7,7 +7,7 @@ public class Piranha extends Aquatic {
 		this.setName(name);
 		this.setAvgSwimDepth(depth);
 		this.setWaterType(type);
-	
+		setCost(1.9);
 		
 	}
 	
@@ -16,5 +16,6 @@ public class Piranha extends Aquatic {
 		this.setNrOfLegs(0);
 		this.setAvgSwimDepth(2);
 		this.setWaterType(waterTypeE.FRESHWATER);
+		setCost(1.9);
 	}
 }

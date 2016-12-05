@@ -7,15 +7,15 @@ public class ReptileFactory extends SpeciesFactory{
 	@Override
 	public Animal getAnimal(String type) 
 	{
-		if(Constants.Animals.Reptiles.Komodo.equals(type))
+		if(Constants.Animals.Reptiles.KOMODO.equals(type))
 		{
 			return new Komodo();
 		}
-		else if(Constants.Animals.Reptiles.Crocodile.equals(type))
+		else if(Constants.Animals.Reptiles.CROCODILE.equals(type))
 		{
 			return new Crocodile();
 		}
-		else if(Constants.Animals.Reptiles.BlackMamba.equals(type))
+		else if(Constants.Animals.Reptiles.BLACKMAMBA.equals(type))
 		{
 			return new BlackMamba();
 		}

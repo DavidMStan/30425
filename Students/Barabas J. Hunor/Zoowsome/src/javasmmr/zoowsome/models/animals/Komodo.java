@@ -6,13 +6,13 @@ public class Komodo extends Reptile {
 		this.setNrOfLegs(legs);
 		this.setName(name);
 		this.setLayEggs(layEggs);
-		
+		setCost(2.3);
 	}
 	
 	public Komodo(){
 		this.setName("Komodo");
 		this.setNrOfLegs(4);
 		this.setLayEggs(true);
-
+		setCost(2.5);
 	}
 }

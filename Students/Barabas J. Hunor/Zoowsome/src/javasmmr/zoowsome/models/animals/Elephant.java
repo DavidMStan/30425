@@ -7,6 +7,7 @@ public class Elephant extends Mammal {
 		this.setName(name);
 		this.setNormalBodyTemp(temp);
 		this.setPercBodyHair(hair);
+		setCost(3.5);
 	}
 	
 	public Elephant(){
@@ -14,6 +15,7 @@ public class Elephant extends Mammal {
 		this.setNrOfLegs(4);
 		this.setNormalBodyTemp(35);
 		this.setPercBodyHair(5);
+		setCost(3.5);
 	}
 
 }

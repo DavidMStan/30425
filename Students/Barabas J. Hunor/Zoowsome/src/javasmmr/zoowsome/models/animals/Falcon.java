@@ -7,7 +7,7 @@ public class Falcon extends Bird {
 		this.setName(name);
 		this.setAvgFlightAltitude(altitude);
 		this.setMigrates(migrate);
-		
+		setCost(1.5);
 	}
 	
 	public Falcon(){
@@ -15,5 +15,6 @@ public class Falcon extends Bird {
 		this.setNrOfLegs(2);
 		this.setAvgFlightAltitude(180);
 		this.setMigrates(false);
+		setCost(1.5);
 	}
 }

@@ -6,13 +6,13 @@ public class Crocodile extends Reptile {
 		this.setNrOfLegs(legs);
 		this.setName(name);
 		this.setLayEggs(layEggs);
-		
+		setCost(1.4);
 	}
 	
 	public Crocodile(){
 		this.setName("Crocodile");
 		this.setNrOfLegs(4);
 		this.setLayEggs(true);
-
+		setCost(1.4);
 	}
 }

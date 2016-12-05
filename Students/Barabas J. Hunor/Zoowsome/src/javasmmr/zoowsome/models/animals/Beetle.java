@@ -7,7 +7,7 @@ public class Beetle extends Insect {
 		this.setName(name);
 		this.setIsDangerous(isDangerous);
 		this.setCanFly(canFly);
-		
+		setCost(0.6);
 	}
 	
 	public Beetle(){
@@ -15,6 +15,6 @@ public class Beetle extends Insect {
 		this.setNrOfLegs(6);
 		this.setIsDangerous(false);
 		this.setCanFly(true);
-
+		setCost(0.6);
 	}
 }

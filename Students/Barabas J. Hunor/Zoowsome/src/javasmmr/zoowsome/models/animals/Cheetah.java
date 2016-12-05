@@ -7,6 +7,7 @@ public class Cheetah extends Mammal {
 		this.setName(name);
 		this.setNormalBodyTemp(temp);
 		this.setPercBodyHair(hair);
+		setCost(1.3);
 	}
 	
 	public Cheetah(){
@@ -14,5 +15,6 @@ public class Cheetah extends Mammal {
 		this.setNrOfLegs(4);
 		this.setNormalBodyTemp(36);
 		this.setPercBodyHair(70);
+		setCost(1.3);
 	}
 }
